@@ -14,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'Weiyuan - Fun with web speech API',
-  description: 'Having fun with web speech api',
+  title: 'Weiyuan - Tools!',
+  description: 'Tools!',
 };
 
 export default function RootLayout({

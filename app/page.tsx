@@ -1,3 +1,4 @@
+import GetUrl from '@/helpers/GetUrl';
 import {
   Card,
   CardContent,
@@ -40,7 +41,7 @@ export default function Home() {
                 <CardMedia
                   component="img"
                   height="140"
-                  image="/images/tool-qrcode.png"
+                  image={GetUrl("/images/tool-qrcode.png")}
                 >
                 </CardMedia>
                 <CardContent>
@@ -53,7 +54,7 @@ export default function Home() {
                 </CardContent>
                 <CardActions>
                   <Button size="small" color="primary">
-                    <Link href="https://weiyuan-lane.github.io/qr-code-generator">Visit</Link>
+                    <Link href="https://weiyuan-lane.github.io/qr-code-generator/">Visit</Link>
                   </Button>
                 </CardActions>
               </Card>
