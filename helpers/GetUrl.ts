@@ -1,5 +1,3 @@
-import getConfig from 'next/config';
-
 const basePath = process.env.SPA_EXP_BASEPATH || '';
 const basePathEndsWithSlash = basePath.endsWith('/')
 
