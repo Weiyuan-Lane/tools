@@ -145,7 +145,7 @@ export default function Home() {
                 </CardContent>
                 <CardActions>
                   <Button size="small" color="primary">
-                    <Link href="https://weiyuan-lane.github.io/web-speech-api/record">Visit</Link>
+                    <Link href="https://weiyuan-lane.github.io/web-speech-api/recorder">Visit</Link>
                   </Button>
                 </CardActions>
               </Card>
