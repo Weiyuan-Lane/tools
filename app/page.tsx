@@ -150,6 +150,29 @@ export default function Home() {
                 </CardActions>
               </Card>
             </Grid>
+
+            <Grid size={{ sm: 12, md: 4, lg: 3 }}>
+              <Card>
+                <CardMedia
+                  sx={{ height: '210px' }}
+                  component="img"
+                  image={GetUrl("/images/game-snake.png")}
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                    Snake game
+                  </Typography>
+                  <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                    Play a simple snake game, directly on your browser! Zoom!
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button size="small" color="primary">
+                    <Link href="https://weiyuan-lane.github.io/snake-game">Play</Link>
+                  </Button>
+                </CardActions>
+              </Card>
+            </Grid>
           </Grid>
         </Box>
       </main>
